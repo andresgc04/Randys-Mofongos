@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="../../public/assets/img/Randy s Mofongo Sin Fondo.png"
+    />
+    <title>Randy's Mofongos</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- Fonts Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Fontsaweson icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!--Encabezado-->
+    <header>
+      <div class="contenedor">
+        <div class="textos">
+          <h1>Menú</h1>
+          <h2>Ordene Ahora</h2>
+        </div>
+        <img
+          class="Randy-Mofongo-Logo"
+          src="../../public/assets/img/Randy s Mofongo Sin Fondo.png"
+          alt="Randy's Mofongos"
+        />
+      </div>
+    </header>
+
+    <!--Seccion De Olas-->
+    <div class="wave">
+      <div style="height: 150px; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Seccion De Nuestras Categorias -->
+    <div class="categories">
+      <div class="wrapper">
+        <h3 class="category-title">Categorias</h3>
+
+        <div class="categories-container">
+          <div class="category">
+            <img src="../../public/assets/img/mofongos.jpg" alt="mofongos" />
+            <div class="category-body">
+              <h4>Mofongos</h4>
+              <span>Mofongos</span>
+            </div>
+          </div>
+
+          <div class="category">
+            <img src="../../public/assets/img/empanadas.jpg" alt="empanadas" />
+            <div class="category-body">
+              <h4>Empanadas</h4>
+              <span>Empanadas</span>
+            </div>
+          </div>
+
+          <div class="category">
+            <img src="../../public/assets/img/canastica.jpg" alt="canasticas" />
+            <div class="category-body">
+              <h4>Canasticas</h4>
+              <span>Canasticas</span>
+            </div>
+          </div>
+
+          <div class="category">
+            <img src="../../public/assets/img/bebidas.jpg" alt="bebidas" />
+            <div class="category-body">
+              <h4>Bebidas</h4>
+              <span>Bebidas</span>
+            </div>
+          </div>
+
+          <div class="category">
+            <img src="../../public/assets/img/patacon.jpg" alt="patacon" />
+            <div class="category-body">
+              <h4>Patacon</h4>
+              <span>Patacon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Seccion de Menu de Comida-->
+    <section class="menu">
+      <div class="menu-container">
+        <div class="menu-head">
+          <h2>Nuestro Menu</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
+            beatae quasi repellat molestiae assumenda sint veniam reprehenderit
+            porro reiciendis neque ipsum, quam totam cum dolorem!
+          </p>
+        </div>
+
+        <div class="menu-btns">
+          <button type="button" class="menu-btn active-btn" id="verTodos">
+            Todos
+          </button>
+
+          <button type="button" class="menu-btn" id="Mofongos">Mofongos</button>
+
+          <button type="button" class="menu-btn" id="Empanadas">
+            Empanadas
+          </button>
+        </div>
+
+        <div class="menu-btns">
+          <button type="button" class="menu-btn" id="Canasticas">
+            Canasticas
+          </button>
+
+          <button type="button" class="menu-btn" id="Bebidas">Bebidas</button>
+
+          <button type="button" class="menu-btn" id="Patacon">Patacon</button>
+        </div>
+
+        <div class="food-items">
+          <!--Items-->
+          <div class="food-item verTodos">
+            <div class="food-img">
+              <img
+                id="img"
+                src="../../public/assets//img/Mofongos/MofongosCamarones.jpg"
+                alt="Mofongos de Camarones"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Mofongo de Camarones</h2>
+              <div class="line"></div>
+              <h3 class="food-price">RD$600</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+              </ul>
+              <p class="category">
+                Categoria:
+                <span>Mofongos</span>
+              </p>
+            </div>
+          </div>
+          <!--End Items-->
+
+          <!--Items-->
+          <div class="food-item verTodos">
+            <div class="food-img">
+              <img
+                id="img"
+                src="../../public/assets//img/Mofongos/MofongosCerdo.jpg"
+                alt="Mofongos de Cerdos"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Mofongo de Cerdo</h2>
+              <div class="line"></div>
+              <h3 class="food-price">RD$395</h3>
+              <p class="category">
+                Categoria:
+                <span>Mofongos</span>
+              </p>
+            </div>
+          </div>
+          <!--End Items-->
+
+          <!--Items-->
+          <div class="food-item verTodos">
+            <div class="food-img">
+              <img
+                id="img"
+                src="../../public/assets//img/Mofongos/MofongosCerdo.jpg"
+                alt="Mofongos de Cerdos"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Mofongo de Cerdo</h2>
+              <div class="line"></div>
+              <h3 class="food-price">RD$395</h3>
+              <p class="category">
+                Categoria:
+                <span class="category-span">Mofongos</span>
+              </p>
+            </div>
+          </div>
+          <!--End Items-->
+
+          <!--Items-->
+          <div class="food-item verTodos">
+            <div class="food-img">
+              <img
+                id="img"
+                src="../../public/assets//img/Bebidas/agua.jpg"
+                alt="agua"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Botellita de Agua</h2>
+              <div class="line"></div>
+              <h3 class="food-price">RD$25</h3>
+              <p class="category">
+                Categoria:
+                <span>Bebidas</span>
+              </p>
+            </div>
+          </div>
+          <!--End Items-->
+
+          <!--Items-->
+          <div class="food-item verTodos">
+            <div class="food-img">
+              <img
+        
+                src="../../public/assets//img/Bebidas/CocaCola.jpg"
+                alt="CocaCola"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Coca Cola</h2>
+              <div class="line"></div>
+              <h3 class="food-price">RD$35</h3>
+              <p class="category">
+                Categoria:
+                <span>Bebidas</span>
+              </p>
+            </div>
+          </div>
+          <!--End Items-->
+
+          <!--Items-->
+          <div class="food-item verTodos">
+            <div class="food-img">
+              <img
+                id="img"
+                src="../../public/assets//img/Bebidas/CocaCola.jpg"
+                alt="CocaCola"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Coca Cola</h2>
+              <div class="line"></div>
+              <h3 class="food-price">RD$35</h3>
+              <p class="category">
+                Categoria:
+                <span>Bebidas</span>
+              </p>
+            </div>
+          </div>
+          <!--End Items-->
+        </div>
+      </div>
+    </section>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
